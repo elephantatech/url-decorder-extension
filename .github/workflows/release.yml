@@ -2,15 +2,22 @@ name: Create Release
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
-  release:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+
+      - name: Install zip
+        run: sudo apt-get install zip
+
+      - name: Create ZIP file
+        run: zip -r URL-Decoder-Chrome-Extension.zip .
 
       - name: Create Release
         id: create_release
