@@ -11,6 +11,10 @@ A URL is composed from a limited set of characters belonging to the US-ASCII cha
 - Decodes the URL of the current page.
 - Copies the decoded URL to the clipboard.
 
+## installation
+
+you can clone the repo and install the unpack extension or download the lastest release zip and unzip and install the extension.
+
 ## Usage
 
 1. Click the extension's button in the toolbar to open the popup.

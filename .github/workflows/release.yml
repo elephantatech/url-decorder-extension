@@ -17,7 +17,7 @@ jobs:
         run: sudo apt-get install zip
 
       - name: Create ZIP file
-        run: zip -r URL-Decoder-Chrome-Extension.zip .
+        run: zip -r URL-Decoder-Chrome-Extension.zip . --exclude=README.md,*.git/*,*.github/*
 
       - name: Bump version and push tag
         id: bump_version
