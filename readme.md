@@ -17,6 +17,7 @@ A URL is composed from a limited set of characters belonging to the US-ASCII cha
 2. Click the "Decode URL" button to decode the URL of the current page.
 3. Click the "Copy to Clipboard" button to copy the decoded URL to the clipboard.
 
+![demo](demo.gif)
 
 ## Contributing
 
